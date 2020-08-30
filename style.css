@@ -51,18 +51,18 @@ body {
     left:0
 }
 
-button {
+.btn {
     background-color: #F2C94C;
     color: #5D43AE;
     border-color:transparent;
     transition: all .3s ease-in-out;
     outline:none
 }
-button:focus {
+.btn:focus {
     outline:none;
     background-color:  #ddb437;
 }
-button:active {
+.btn:active {
  background-color: #5D43AE;
  color: #F2C94C;
 }
@@ -75,6 +75,7 @@ button:active {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center left;
+   
 }
 
 .heading-title {
@@ -85,4 +86,21 @@ button:active {
 .photo {
     max-height: 600px;
     overflow: hidden;
+}
+
+.bullet{
+    min-width: 1rem;
+    min-height: 1rem;
+    width: 1rem;
+    height: 1rem;
+    border:2px solid #5D43AE;
+    border-radius:3px;
+
+}
+
+.bullet-small {
+    min-width: .7rem;
+    min-height: .7rem;
+    width: .7rem;
+    height: .7rem;
 }
