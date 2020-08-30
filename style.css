@@ -70,11 +70,13 @@ body {
  background-color: #e6bc3f;
   transform: translateY(2px);
 }
+
 .section-main {
     background: linear-gradient(#5e43ae81, #5e43ae81), url('./sk-bg.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center left;
+
    
 }
 
