@@ -1,0 +1,88 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+body {
+    position: relative;
+}
+
+/* Font Family */
+.f-source {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.f-robo {
+    font-family: 'Roboto Slab', serif;
+}
+
+/* Color */
+.logo-text {
+    color: #283444
+}
+.w-primary {
+ color: #5D43AE;
+}
+
+.w-secondary {
+ color: #ffff;
+}
+
+.w-accent {
+    color: #F2C94C;
+}
+.wbg-primary {
+ background-color: #5D43AE;
+}
+
+.wbg-secondary {
+ background-color: #ffff;
+}
+
+.wbg-accent {
+    background-color: #F2C94C;
+}
+.heading-text {
+    line-height: 4rem;
+}
+.nav {
+    position: fixed;
+    top:0;
+    left:0
+}
+
+button {
+    background-color: #F2C94C;;
+    color: #5D43AE;
+    border-color:transparent;
+    transition: all .3s ease-in-out;
+    outline:none
+}
+button:focus {
+    outline:none;
+    background-color:  #ddb437;;
+
+}
+button:active {
+ transform: translateY(2px);
+}
+.btn:hover {
+ background-color: #e6bc3f;
+  transform: translateY(2px);
+}
+.section-main {
+    background: linear-gradient(#5e43ae81, #5e43ae81), url('./sk-bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center left;
+}
+
+.heading-title {
+    max-width: 20rem;
+    background-color: rgba(255, 255, 255, 0.877);
+}
+
+.photo {
+    max-height: 600px;
+    overflow: hidden;
+}
