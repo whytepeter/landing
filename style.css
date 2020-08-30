@@ -52,7 +52,7 @@ body {
 }
 
 button {
-    background-color: #F2C94C;;
+    background-color: #F2C94C;
     color: #5D43AE;
     border-color:transparent;
     transition: all .3s ease-in-out;
@@ -60,11 +60,11 @@ button {
 }
 button:focus {
     outline:none;
-    background-color:  #ddb437;;
-
+    background-color:  #ddb437;
 }
 button:active {
- transform: translateY(2px);
+ background-color: #5D43AE;
+ color: #F2C94C;
 }
 .btn:hover {
  background-color: #e6bc3f;
